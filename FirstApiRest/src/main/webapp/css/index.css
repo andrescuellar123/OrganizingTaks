@@ -1,0 +1,59 @@
+#registroContainer{
+    width: 350px;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#columnaRegistrar{
+    width: 25%;
+}
+
+#columnaToDo{
+    width: 300px;
+}
+#taskContainer{
+    width: 25%;
+}
+
+.taskComponent{
+    background: #CCC;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    position: relative;
+    position: relative;
+
+    
+}
+.delBtn{
+    background: red;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.ascendBtn{
+    background: blue;
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+.descendBtn{
+    background: yellow;
+    position: absolute;
+    top: 65px;
+}
+#taskContainerDoing{
+    width: 25%;
+}
+#columnaDoing{
+    width: 300px;
+}
+
+#taskContainerDone{
+    width: 25%;
+}
+#columnaDone{
+    width: 300px;
+}

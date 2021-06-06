@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task</title>
+        <link rel="stylesheet" href="css/index.css"/>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <table id="table">
+            <td id="columnaRegistrar">
+                <div id= "registroContainer">
+                    <h1>Registra la Tarea</h1>
+                    <p><input id ="nombre" type="text" placeholder="Nombre"></p>
+                    <p><input id ="descripcion" type="text" placeholder="Descripcion"></p>
+                    <p></p><button id = "regBtn">Registrar</button></p>
+                    
+        
+                </div>
+            </td>
+
+
+            <td id="columnaToDo">
+                <h1>TODO</h1>
+                <div id= "taskContainer"></div>
+            </td>
+
+            <td id="columnaDoing">
+                <h1>DOING</h1>
+                <div id= "taskContainerDoing"></div>
+            </td>
+            <td id="columnaDone">
+                <h1>DONE</h1>
+                <div id= "taskContainerDone"></div>
+            </td>
+            
+        </table>
+    </body>
+</html>
+<script src="js/User.js"></script>
+<script src="js/TaskView.js"></script>
+<script src="js/index.js"></script>
